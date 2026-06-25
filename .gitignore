@@ -1,0 +1,26 @@
+# Zip files
+*.zip
+
+# macOS
+.DS_Store
+
+# IDE
+.vs/
+.idea/
+.vscode/
+
+# Build artifacts
+bin/
+obj/
+out/
+dist/
+node_modules/
+
+# Logs
+*.log
+
+# Secrets
+secrets.json
+appsettings.Development.json
+.env
+.env.local
