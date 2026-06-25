@@ -1,4 +1,5 @@
 ﻿using HotChocolate.Execution.Configuration;
+using OnboardingFeature.GraphQL;
 using TodoFeature.GraphQL;
 
 namespace HRMS.API.RegisterDependencies
@@ -7,7 +8,9 @@ namespace HRMS.API.RegisterDependencies
     {
         public static IRequestExecutorBuilder AddGraphQLModules(this IRequestExecutorBuilder builder)
         {
-            return builder.AddTodosGraphQL();
+            return builder
+                .AddTodosGraphQL()
+                .AddOnboardingGraphQL();
         }
     }
 }

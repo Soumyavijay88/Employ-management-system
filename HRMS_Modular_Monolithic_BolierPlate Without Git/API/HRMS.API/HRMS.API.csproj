@@ -18,6 +18,8 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Modules\TodoFeature\TodoFeature.GraphQL\TodoFeature.GraphQL.csproj" />
     <ProjectReference Include="..\..\Modules\TodoFeature\TodoFeature.Infrastructure\TodoFeature.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Modules\OnboardingFeature\OnboardingFeature.GraphQL\OnboardingFeature.GraphQL.csproj" />
+    <ProjectReference Include="..\..\Modules\OnboardingFeature\OnboardingFeature.Infrastructure\OnboardingFeature.Infrastructure.csproj" />
     <ProjectReference Include="..\..\Shared\HRMS.Shared.Infrastructure\HRMS.Shared.Infrastructure.csproj" />
   </ItemGroup>
 
